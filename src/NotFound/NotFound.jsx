@@ -13,7 +13,7 @@ function NotFound() {
        <NavLink className="Singuppage" to="/Home">Home</NavLink>
        </div>
        <div className="navlink-div3">
-       <NavLink className="Singuppage" to="/SingUp">SingUp</NavLink>
+       <NavLink className="Singuppage" to="/">SingUp</NavLink>
        </div>
         </div>
         </div>

@@ -18,7 +18,7 @@ function Private(){
             <div className="private__div">
                 <img className="private__img" src={PrivateImg} alt="img" />
                 <div className="link__div">
-                <NavLink className="private__btn" to="/SingUp">
+                <NavLink className="private__btn" to="/">
                     Sing Up
                 </NavLink>
                 </div>
@@ -32,14 +32,14 @@ function Private(){
           <div className="private__div">
               <img className="private__img" src={PrivateImg} alt="img" />
               <div className="link__div">
-              <NavLink className="private__btn" to="/SingUp">
+              <NavLink className="private__btn" to="/">
                   Sing Up
               </NavLink>
               </div>
           </div>
       )
     }
-    return <Navigate to="/"/>
+    return <Navigate to="/Login"/>
 
 }
 

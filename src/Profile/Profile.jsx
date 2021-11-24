@@ -163,7 +163,7 @@ function Profile() {
                     <p className="main__next--item-text">Joined November 2021</p>
                 </li>
             </ul>
-            <NavLink to="/SingUp" className="tweet__btn--profile" ref={tweet__btn}>Edit Profile</NavLink>
+            <NavLink to="/" className="tweet__btn--profile" ref={tweet__btn}>Edit Profile</NavLink>
             <div className="span__div">
             <span className="tweet__span--profile"><h3 className="tweet__title--profile" ref={title}>18 Following</h3></span>
             <span className="tweet__span--profile"><h3 className="tweet__title--profile">1.7k Followers</h3></span>

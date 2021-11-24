@@ -11,7 +11,7 @@ function Public(){
     if(token === 'bor' && pathname === '/Login'){
         return <Navigate to="/Home"/>
     }
-    if(token == 'otish mumkin' && pathname == '/SingUp'){
+    if(token == 'otish mumkin' && pathname == '/'){
         return <Navigate to="/Login"/>
     }
     return <Outlet/>

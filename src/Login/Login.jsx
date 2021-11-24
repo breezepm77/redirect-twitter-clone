@@ -56,8 +56,8 @@ function SingUp() {
         {/* <NavLink type="submit" className="form__btnlogin" to="/Login">Log In</NavLink> */}
         <button type="submit" className="form__btnlogin">Login</button>
         </div>
-        <NavLink className="form__password" to="/SingUp">Forgot Password?</NavLink>
-        <NavLink className="form__singin" to="/SingUp">Sign up to Twitter</NavLink>
+        <NavLink className="form__password" to="/">Forgot Password?</NavLink>
+        <NavLink className="form__singin" to="/">Sign up to Twitter</NavLink>
         </form>
         </div>
         </>
