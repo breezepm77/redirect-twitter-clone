@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.imgnotfound{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.img__container{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.overflowcontainer{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+.img__mini--container{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.Loginpage{
+    position: absolute;
+    background-color: #FFF;
+    padding: 22px 80px;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 1.5px;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 22px;
+    border: 2px solid #FFF;
+}
+.Loginpage:hover{
+    background-color: transparent;
+    color: #FFF;
+    transition: 1s ease all;
+}
+.Singuppage{
+    position: absolute;
+    background-color: #C3A97B;
+    padding: 22px 152px;
+    color: #040306;
+    text-decoration: none;
+    font-size: 19px;
+    border-radius: 3%;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 22px;
+    border: 2px solid #C3A97B;
+}
+.Singuppage:hover{
+    background-color: transparent;
+    color: #040306;
+    border: 2px solid #040306;
+    transition: 1s ease all;
+}
+.Navlink__container{
+   display: flex;
+   justify-content: space-around;
+}
+.navlink-div2{
+    display: flex;
+    justify-content: flex-end;
+}
+.Homepage{
+    position: absolute;
+    background-color: #FFF;
+    padding: 22px 120px;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 1.5px;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 22px;
+    border: 2px solid #FFF;
+}
+.Homepage:hover{
+    background-color: transparent;
+    color: #FFF;
+    transition: 1s ease all;
+}

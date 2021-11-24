@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/SegoeUI-BoldItalic.woff2') format('woff2'),
+        url('../fonts/SegoeUI-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/SegoeUI-Bold.woff2') format('woff2'),
+        url('../fonts/SegoeUI-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/SegoeUI.woff2') format('woff2'),
+        url('../fonts/SegoeUI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/SegoeUI-Italic.woff2') format('woff2'),
+        url('../fonts/SegoeUI-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+.containerlogin{
+    width: 750px;
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.formlogin{
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.form__logologin{
+    padding-left: 1px;
+}
+.form__titlelogin{
+    font-family: "Segoe UI";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000;
+    margin-top: 24px;
+}
+.form__inputnamelogin{
+    width: 450px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 20px;
+    display: block;
+    margin-top: 35px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+.form__inputnamelogin:focus{
+    outline: none;
+    border: 1px solid #1DA1F2;
+}
+.form__inputtellogin:focus{
+    outline: none;
+    border: 1px solid #1DA1F2;
+}
+.form__inputtellogin{
+    width: 450px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 20px;
+    display: block;
+    margin-top: 20px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+.form__inputnamelogin::placeholder{
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+.form__inputtellogin::placeholder{
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+.form__link{
+    color: #1DA1F2;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+.form__tellink{
+    color: #1DA1F2;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 5px;
+    display: none;
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+.form__titlen2{
+    margin-top: 66px;
+    margin-left: 5px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Segoe UI";
+    font-weight: 700;
+}
+.form__text{
+    color: #000000;
+    opacity: 0.6;
+    margin-top: 8px;
+    margin-left: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+.form__select{
+    width: 292px;
+    padding-left: 20px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-radius: 6px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+    margin-top: 20px;
+}
+.form__selectday{
+    width: 139px;
+    padding-left: 20px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-radius: 6px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.form__select:focus{
+    outline: none;
+    border: 1px solid #1DA1F2;
+}
+.form__selectday:focus{
+    outline: none;
+    border: 1px solid #1DA1F2;
+}
+.form__selectyear{
+    width: 139px;
+    padding-left: 20px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-radius: 6px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.form__selectyear:focus{
+    outline: none;
+    border: 1px solid #1DA1F2;
+}
+.form__btnlogin{
+    background: #1DA1F2;
+    border-radius: 76px;
+    padding: 18px 200px;
+    margin-left: 15px;
+    margin-top: -22px;
+    color: #FFFFFF;
+    font-family: "Segoe UI";
+    font-weight: 700;
+    text-decoration: none;
+    border: 2px solid #1DA1F2;
+}
+.form__btnlogin:hover{
+    background-color: transparent;
+    color: #1DA1F2;
+    transition: 1s ease all;
+}
+.form__divbtn{
+    margin-top: 66px;
+}
+.form__password{
+    color: #1DA1F2;
+    text-decoration: none;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 15px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+.form__singin{
+    color: #1DA1F2;
+    text-decoration: none;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 333px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
