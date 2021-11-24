@@ -8,6 +8,7 @@ import useUser from '../Hooks/UseUser';
 function Private(){
     
     let [token] = useAuth()
+    let [user] = useUser()
     let {pathname} = useLocation()
  
     if(token == 'bor'){
@@ -18,7 +19,7 @@ function Private(){
             <div className="private__div">
                 <img className="private__img" src={PrivateImg} alt="img" />
                 <div className="link__div">
-                <NavLink className="private__btn" to="/">
+                <NavLink className="private__btn" to="/SingUp">
                     Sing Up
                 </NavLink>
                 </div>
@@ -32,14 +33,14 @@ function Private(){
           <div className="private__div">
               <img className="private__img" src={PrivateImg} alt="img" />
               <div className="link__div">
-              <NavLink className="private__btn" to="/">
+              <NavLink className="private__btn" to="/SingUp">
                   Sing Up
               </NavLink>
               </div>
           </div>
       )
     }
-    return <Navigate to="/Login"/>
+    return <Navigate to="/SingUp"/>
 
 }
 
