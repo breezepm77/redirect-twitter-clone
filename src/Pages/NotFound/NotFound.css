@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.imgnotfound{
+    width: 100%;
+    height: 120vh;
+    overflow: hidden;
+    object-fit: fill;
+}
+.img__container{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.overflowcontainer{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url('https://cdn1.vectorstock.com/i/1000x1000/77/15/404-error-page-not-found-plug-graphic-background-vector-21467715.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 130%;
+    height: 100vh;
+}
+.img__mini--container{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.Loginpage{
+    position: absolute;
+    background-color: #FFF;
+    padding: 22px 80px;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 1.5px;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 22px;
+    border: 2px solid #FFF;
+}
+.Loginpage:hover{
+    background-color: transparent;
+    color: #FFF;
+    transition: 1s ease all;
+}
+.Singuppage{
+    position: absolute;
+    background-color: transparent;
+    padding: 3px 100px;
+    color: #02CAFE;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 22px;
+    border-radius: 20px;
+    border: 2px solid #02CAFE;
+}
+.Singuppage:hover{
+    background-color: #02CAFE;
+    color: #FFF;
+    /* border: 2px solid #fff; */
+    transition: 1s ease all;
+}
+.Navlink__container{
+   display: flex;
+   justify-content: space-around;
+}
+.navlink-div2{
+    display: flex;
+    justify-content: center;
+}
+.Homepage{
+    position: absolute;
+    background-color: #FFF;
+    padding: 22px 120px;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 1.5px;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 22px;
+    border: 2px solid #FFF;
+}
+.Homepage:hover{
+    background-color: transparent;
+    color: #FFF;
+    transition: 1s ease all;
+}

@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../../assets/fonts/SegoeUI-BoldItalic.woff2') format('woff2'),
+        url('../../assets/fonts/SegoeUI-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../../assets/fonts/SegoeUI-Bold.woff2') format('woff2'),
+        url('../../assets/fonts/SegoeUI-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../../assets/fonts/SegoeUI.woff2') format('woff2'),
+        url('../../assets/fonts/SegoeUI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../../assets/fonts/SegoeUI-Italic.woff2') format('woff2'),
+        url('../../assets/fonts/SegoeUI-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+.container{
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #6F51EC;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-section {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+.login{
+    width: 420px !important;
+    height: 404px !important;
+    padding-left: 66px;
+    padding-top: 55px !important;
+    padding-right: 0px !important;
+    padding-bottom: 77px !important;
+    border-radius: 10%;
+    background-color: #FCFCFC;
+}
+.eye-icon {
+    position: absolute;
+    margin-top: -44px;
+    right: 0;
+    font-size: 22px;
+    color: #B7AAE9;
+    cursor: pointer;
+    display: none;
+}
+.slash-eye-icon {
+    position: absolute;
+    margin-top: -44px;
+    right: 0;
+    font-size: 22px;
+    color: #B7AAE9;
+    cursor: pointer;
+}
+.form__logo{
+    margin-left: 105px;
+    border-radius: 30px;
+}
+.form__title{
+    font-family: "Segoe UI";
+    font-weight: 700;
+    font-size: 30px;
+    width: 300px;
+    line-height: 40px;
+    color: #000;
+    margin-top: 24px;
+}
+.form__inputname{
+    width: 330px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 20px;
+    display: block;
+    margin-top: 25px;
+    background: rgba(213, 209, 238, 0.35);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+.form__inputname:focus{
+    outline: none;
+    border: 1px solid #B7AAE9;
+}
+.form__inputtel:focus{
+    outline: none;
+    border: 1px solid #B7AAE9;
+}
+.form__inputtel{
+    width: 330px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 20px;
+    display: block;
+    margin-top: 20px;
+    background: rgba(213, 209, 238, 0.35);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+.form__inputname::placeholder{
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+.form__inputtel::placeholder{
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+.form__link2{
+    color: #B7AAE9;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+.form__tellink2{
+    color: #B7AAE9;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: none;
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+.form__titlen2{
+    margin-top: 66px;
+    margin-left: 5px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Segoe UI";
+    font-weight: 700;
+}
+.form__text{
+    color: #000000;
+    opacity: 0.6;
+    margin-top: 8px;
+    margin-left: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+.form__select{
+    width: 292px;
+    padding-left: 20px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-radius: 6px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+    margin-top: 20px;
+}
+.form__selectday{
+    width: 139px;
+    padding-left: 20px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-radius: 6px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.form__select:focus{
+    outline: none;
+    border: 1px solid #B7AAE9;
+}
+.form__selectday:focus{
+    outline: none;
+    border: 1px solid #B7AAE9;
+}
+.form__selectyear{
+    width: 139px;
+    padding-left: 20px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-radius: 6px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.form__selectyear:focus{
+    outline: none;
+    border: 1px solid #B7AAE9;
+}
+.form__btn{
+    font-family: 'Inter';
+    background: #B7AAE9;
+    border-radius: 5px;
+    width: 353px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: -30px;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 2px solid #B7AAE9;
+}
+.form__btn:hover{
+    background-color: transparent;
+    color: #B7AAE9;
+    transition: 1s ease all;
+}
+.form__divbtn{
+    margin-top: 50px;
+}

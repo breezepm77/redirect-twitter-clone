@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,300,700');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+h1 {
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+.section-ekle {
+    display: flex !important;
+    justify-content: center !important;
+}
+.form {
+    width: 430px;
+    padding-top: 55px !important;
+    padding-right: 50px !important;
+    padding-bottom: 77px !important;
+    border-radius: 5px;
+    padding-left: 30px;
+    background-color: #AE8EFB;
+}
+.ekle-input-label-text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+}
+.ekle-input-section {
+    margin-bottom: 10px;
+}
+.ekle-input {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 15px;
+    line-height: 24px;
+    color: #3F4150;
+    border: 0.5px solid #ccc;
+    width: 100%;
+    height: 36px;
+    border-radius: 11px;
+    margin-top: 10px;
+}
+.ekle-input:focus {
+    outline: none;
+    border: 0.5px solid #D3AFFF;
+}
+.ekle-input-file {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 15px;
+    line-height: 24px;
+    color: #3F4150;
+    border: 0.5px solid #ccc;
+    width: 100%;
+    height: 36px;
+    border-radius: 11px;
+    margin-top: 10px;
+    display: none;
+}
+.ekle-btn-section {
+    width: 105%;
+    display: flex;
+    justify-content: flex-end;
+}
+.ekle-btn {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background-color: #B7AAE9;
+  border: 2px solid #B7AAE9;
+  width: 200px;
+  height: 44px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.ekle-btn:hover {
+    background-color: transparent;
+    color: #B7AAE9;
+    transition: .5s ease all;
+}
+.input-file-section{
+    text-align: center;
+    padding:3%;
+    background-color: #fff;
+    border:thin solid #D3AFFF;
+    border-radius: 11px;
+    width: 422px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .input-file-section-nth{
+    text-align: center;
+    padding:3%;
+    border:thin solid #D3AFFF;
+    border-radius: 11px;
+    background-color: #fff;
+    width: 422px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .file-input-label{
+    cursor:pointer;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #imageName{
+    color:#000;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+.ekle-input-file:focus {
+    outline: none;
+    border: 0.5px solid #D3AFFF;
+}
